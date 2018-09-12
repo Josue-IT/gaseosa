@@ -1,0 +1,30 @@
+{
+  "name": "Josue-IT/gaseosa",
+  "type": "gaseosa",
+  "description": "Gaseosa",
+  "keywords": [
+    "gaseosa"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Josue Navarro",
+      "email": "j.navarro@gobalo.es",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "composer/installers": "~1.0"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "php artisan stylist:publish"
+    ],
+    "post-update-cmd": [
+      "php artisan stylist:publish"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

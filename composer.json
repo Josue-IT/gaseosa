@@ -1,24 +1,4 @@
 {
-  "name": "Josue-IT/gaseosa",
-  "type": "gaseosa",
-  "description": "Gaseosa",
-  "keywords": [
-    "gaseosa"
-  ],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Josue Navarro",
-      "email": "j.navarro@gobalo.es",
-      "role": "Developer"
-    }
-  ],
-  "autoload": {
-    "psr-4": {
-      "Modules\\Josue\\": ".",
-      "Modules\\": "Modules/"
-    }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": false
+    "name": "josue-it/gaseosa",
+    "require": {}
 }

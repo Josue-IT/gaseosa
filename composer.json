@@ -25,6 +25,12 @@
       "php artisan stylist:publish"
     ]
   },
+  "autoload": {
+    "psr-4": {
+      "Modules\\Josue\\": ".",
+      "Modules\\": "Modules/"
+    }
+  },
   "minimum-stability": "dev",
   "prefer-stable": true
 }
